@@ -1,0 +1,14 @@
+<view class="container">
+    <!-- 上半部分 -->
+    <view class="uppart">
+    <!-- 左半部分 -->
+        <view class="leftpart">
+        <image src="/images/wechat.png" class="leftimg"> </image>
+        </view>
+    <!-- 右半部分 -->
+        <view class="rightpart"> 
+            <image src="/images/wechat.png" class="rightimg"> </image>
+            <image src="/images/wechat.png" class="rightimg"> </image>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,29 @@
+.uppart{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.leftpart{
+    width: 375rpx;
+    display: flex;
+    justify-content: center;
+}
+
+/* 左边图片修饰 */
+.leftimg{
+    width: 375rpx;
+    height: 50vh;
+}
+
+.rightpart{
+    width: 375rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 右边图片 */
+.rightimg{
+    width: 375rpx;
+    height: 375rpx;
+}
