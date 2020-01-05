@@ -11,4 +11,9 @@
             <image src="/images/wechat.png" class="rightimg"> </image>
         </view>
     </view>
+    <view class="downpart">
+        <view> 项目A </view>
+        <view> 项目B </view>
+        <view> 项目C </view>
+    </view>
 </view>
