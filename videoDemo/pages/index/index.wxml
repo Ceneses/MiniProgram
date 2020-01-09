@@ -1,0 +1,14 @@
+<!-- 第一个视频播放器 -->
+<video id="MyVideo" controls></video>
+<!-- 第二个弹幕区 -->
+<view class="danmuArea">
+    <input type="text" placeholder="请输入弹幕内容"></input>
+    <button>发送弹幕</button>
+</view>
+<!-- 第三个区域视频列表区域 -->
+<view class="videoList">
+    <view class="videoBar" wx:for='{{list}}' wx:key='video{{index}}'>
+        <image src="/images/play.png"></image>
+        <text>{{item.title}}</text>
+    </view>
+</view>
